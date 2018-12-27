@@ -11,7 +11,7 @@
 # 问卷调查的结构 五个问卷题目表单 也跟上面的一样     全是多选
 
 # Json的设计   在数据库表中， content字段给问题 赋予两个不同的类别，类别属性值定义为 type  其后 知识检测类为 K  问卷 R  如“type”：“K”，“type”：“R” Slist 用来表示那些学生回答  “Slist”：“001 002 ...” (如果是空的话默认all)
-问卷或者测试题目的名字："Qname":"政治与计算机混合试题"
+# 问卷或者测试题目的名字："Qname":"政治与计算机混合试题"
 # 题目数量 Qnumber "Qnumber":"5" 题目内容 question1 "question1":"...."   question2 "question2":"...."  , ..., 一直到5  回答段同理 as1a as1b as1c as1d as2a...... Key 段表示答案段  “Key1”：“B”  “Key3”：“B C” 
 
 # 知识检测的回答段 Sid Sname Stime 记录答题用户 每个用户的答题 用as1，as2，as3...来定义  “as1”：“B”   单选题 b为大写  多选题   “as3”：“B C”   判断题  “as5”：“Y”  
