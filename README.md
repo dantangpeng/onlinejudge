@@ -14,7 +14,7 @@
 # 问卷或者测试题目的名字："Qname":"政治与计算机混合试题"
 # 题目数量 Qnumber "Qnumber":"5" 题目内容 question1 "question1":"...."   question2 "question2":"...."  , ..., 一直到5  回答段同理 as1a as1b as1c as1d as2a...... Key 段表示答案段  “Key1”：“B”  “Key3”：“B C” 
 
-# 知识检测的回答段 Sid Sname Stime 记录答题用户 每个用户的答题 用as1，as2，as3...来定义  “as1”：“B”   单选题 b为大写  多选题   “as3”：“B C”   判断题  “as5”：“Y”  
+# 知识检测的回答段 Sid Sname Stime 记录答题用户 每个用户的答题 用as1，as2，as3...来定义  “as1”：“B”   单选题 b为大写  多选题   “as3”：“B C”   判断题  “as5”：“Y”    "Stime":"024"  (第一位代表分钟，后两位代表秒钟)
 
 # 问卷检测类 全部存的是多选 选项定死 5个 最后一个是自定义 多选也是由空格分开 比如 “as1”：“B C 不知道”
 
